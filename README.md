@@ -1,8 +1,16 @@
 # 环境辅助工具 (EnvAssist Tool )
 
+```
+  _____                  ______    _     _     _
+ | ____|_ __  _ __ ___  |  _ \ \  / /\ \   / / |
+ |  _| | '_ \| '__/ _ \ | |_) \ \/ /  \ \ / /| |
+ | |___| | | | | |  __/ |  _ < \  /    \ V / |_|
+ |_____|_| |_|_|  \___| |_| \_\ \/      \_/  (_)
+```
+
 本项目旨在提供一个统一、便捷的环境管理和项目辅助命令行界面，简化 Python 和 Node.js 开发者的日常工作流程。它围绕 Conda 环境管理、依赖处理、Git 操作以及常见项目结构生成等功能，通过模块化设计，提升开发效率。
 
-**当前状态: [例如：Alpha / Beta / 稳定版 / 积极开发中]**
+**叠甲: 本人现在还是个小白，在ai的帮助下完成的，轻喷**
 
 ## ✨ 核心特性
 
@@ -46,9 +54,10 @@
 
 2.  **放置 `global_tools` 目录:**
     将 `global_tools` 目录放置在一个您方便管理的位置，例如：
+    
     *   `~/tools/global_tools` (Linux/macOS)
     *   `C:\Users\YourUser\Documents\tools\global_tools` (Windows)
-
+    
 3.  **安装 `global_tools` 的 Python 依赖:**
     进入 `global_tools` 目录，根据需要安装 `pypinyin` 和 `toml` (如果它们没有被打包到工具中)：
     
@@ -67,7 +76,7 @@
     *   导航到您的项目目录，例如 `cd /path/to/your/project`。
     *   运行以下命令 (请将 `/path/to/global_tools/` 替换为 `global_tools` 目录的实际绝对路径):
         ```bash
-        python /path/to/global_tools/tool_generator.py .
+        python "/path/to/global_tools/tool_generator.py" .
         ```
         这会在您的项目目录下生成一个 `tool.py` 文件。
     
