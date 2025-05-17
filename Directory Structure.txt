@@ -1,0 +1,24 @@
+/ (some base directory, e.g., your workspace)
+├── global_tools/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── conda_manager.py
+│   ├── git_manager.py
+│   ├── dependency_manager.py
+│   ├── project_detector.py
+│   ├── project_generator.py
+│   ├── script_generator.py
+│   ├── tool_generator.py
+│   ├── utils.py
+│   ├── config.py
+│   └── assets/
+│       └── banner.txt
+│       └── templates/  # Placeholder for project templates
+│           └── github_standard/
+│               ├── README.md
+│               └── .gitignore
+│           └── python_flask/
+│               # ... flask template files/dirs
+│           # ... other templates
+└── my_new_project/  # Example project directory
+    └── tool.py      # This will be generated
